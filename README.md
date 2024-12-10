@@ -1,2 +1,3 @@
 # Fake-News-Detection
 The Fake News Detection Website built using Jupyter Notebook uses machine learning to classify news articles as real or fake. It processes user input with NLP techniques like tokenization, stopword removal, and stemming. 
+The Fake News Detection Website is built using Jupyter Notebook with libraries like `numpy`, `pandas`, and `scikit-learn`. The system preprocesses the news articles with techniques such as tokenization, stopword removal, and stemming using the `PorterStemmer`. It then vectorizes the text using `TfidfVectorizer`, splits the data for training, and applies a Logistic Regression model to classify the articles as real or fake. The model's performance is evaluated using accuracy score for precise detection.
